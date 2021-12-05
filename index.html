@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTJS2</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+<div class="wrap">
+
+
+    <form class="form">
+        <h5>BÀI TOÁN QUY ĐỔI TỪ USD SANG VDN</h5>
+        <p type="Nhập số lượng tiền cần đổi: "><input id="inpCount"></input></p>
+        <div class="btn">
+            <button onclick="changeMoney()" type="button">Click me!</button>
+        </div>
+        <p id="txtMoney"></p>
+
+    </form>
+
+    <form class="form">
+        <h5>BÀI TOÁN TÍNH DIỆN TÍNH VÀ CHU VI HÌNH CHỮ NHẬT</h5>
+        <p type="Nhập chiều dài hình chữ nhật: "><input id="inpLength"></input></p>
+        <p type="Nhập chiều rộng hình chữ nhật: "><input id="inpWidth"></input></p>
+        <div class="btn">
+            <button onclick="Caculator()" type="button">Click me!</button>
+        </div>
+        <p id="txtArea"></p>
+        <p id="txtPerimeter"></p>
+
+    </form>
+
+    <form class="form">
+        <h5>BÀI TOÁN TÍNH TỔNG 2 KÝ SỐ</h5>
+        <p type="Nhập 1 số nguyên bất kì gồm 2 chữ số: "><input id="inpNumber"></input></p>
+        <div class="btn">
+            <button onclick="KySo()" type="button">Click me!</button>
+        </div>
+        <p id="txtNumber"></p>
+
+    </form>
+</div>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
